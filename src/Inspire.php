@@ -8,7 +8,7 @@ class Inspire
 {
     public function justDoIt()
     {
-        $response = Http::get('https://inspiration.goprogramm.ai/');
+        $response = Http::get('https://api.goprogram.ai/inspiration/');
 
         return $response['quote'] . ' - ' . $response['author'];
     }
