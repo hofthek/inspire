@@ -1,0 +1,16 @@
+{
+    "name": "hofthek/inspire",
+    "description": "a little package for generating randomly quotes",
+    "autoload": {
+        "psr-4": {
+            "Hofthek\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mathias Wadjo",
+            "email": "55707500+wombassorville@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
