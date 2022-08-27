@@ -7,7 +7,7 @@ use Hofthek\Inspire\Inspire;
 
 class InspirationController
 {
-    public function __invoke(Inspire $inpire)
+    public function __invoke(Inspire $inspire)
     {
         $quote = $inspire->justDoIt();
 
